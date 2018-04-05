@@ -1,0 +1,22 @@
+{
+  "name": "mstech-omr-result-sync",
+  "version": "2.5.0",
+  "description": "MStech OMR Result Sync",
+  "main": "./src/App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "virgilio.neto@mstech.com.br",
+  "license": "MStech",
+  "repository": "git@gitlab.mstech.com.br:mstech-omr/result-sync.git",
+  "dependencies": {
+    "async": "^1.5.0",
+    "extend": "^3.0.0",
+    "mongoose": "^4.6.0",
+    "winston": "^2.2.0",
+    "winston-mongodb": "^1.6.1"
+  },
+  "devDependencies": {
+    "v8-profiler": "^5.6.5"
+  }
+}
